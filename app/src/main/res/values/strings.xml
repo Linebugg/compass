@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">compass</string>
+    <string name="Acc1">Accelerometer</string>
+    <string name="Comp">Kompass</string>
+    <string name="X">X</string>
+    <string name="Heading">Heading: 0.0</string>
+
+
+</resources>
