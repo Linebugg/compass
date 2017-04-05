@@ -26,6 +26,7 @@ public class acc extends AppCompatActivity implements SensorEventListener {
         mSensorManager.registerListener(this, maccel ,SensorManager.SENSOR_DELAY_NORMAL);
         acceleration= (TextView) findViewById(R.id.acceleration);
 
+
     }
 
     @Override
@@ -40,6 +41,7 @@ public class acc extends AppCompatActivity implements SensorEventListener {
             acceleration.setText(" X:"+ event.values[0]+
                     "\n \n Y:" +  event.values[1]+
                     "\n \n Z:" +event.values[2]);
+
         }
 
     }

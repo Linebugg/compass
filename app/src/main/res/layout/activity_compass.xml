@@ -6,16 +6,18 @@
     android:layout_height="match_parent"
     tools:context="annelinegjersem.compass.compass">
 
+
     <ImageView
         android:id="@+id/img_back"
         android:layout_width="264dp"
         android:layout_height="356dp"
-        android:layout_below="@+id/tv_id"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="62dp"
         android:src="@drawable/ic_back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
+
+
 
 </android.support.constraint.ConstraintLayout>
